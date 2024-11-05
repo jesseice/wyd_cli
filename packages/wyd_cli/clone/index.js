@@ -25,7 +25,8 @@ const gitClone = (remote, name, option) => {
 };
 const remoteList = {
   Antdv4Vue3: "https://github.com/jesseice/ant4-vue3-back.git",
-  Nuxt3: 'https://github.com/jesseice/nuxt3_init.git'
+  Nuxt3: 'https://github.com/jesseice/nuxt3_init.git',
+  Crx: 'https://github.com/jesseice/vue3_vite5_chrome_plugin.git'
 };
 const branch = "main";
 const promptsOptions = [
@@ -48,6 +49,7 @@ const promptsOptions = [
     choices: [
       { title: "vue3-vite-Antdv4(普系统)", value: "Antdv4Vue3" },
       { title: "Nuxt3启动框架", value: "Nuxt3" },
+      { title: "chrome扩展(vue3+vite5)", value: "Crx" },
     ],
   },
 ];
