@@ -28,7 +28,7 @@ const remoteList = {
 	Nuxt3: "https://github.com/jesseice/nuxt3_init.git",
 	Crx: "https://github.com/jesseice/vue3_vite5_chrome_plugin.git",
 	Crx_NoPackage: "git@github.com:jesseice/origin_crx.git",
-	Crx_NoPackage_Vue: "git@github.com:jesseice/origin_crx_vue.git",
+	Crx_NoPackage_Vue: "git@github.com:jesseice/origin_crx.git",
 };
 let branch = "main";
 const promptsOptions = [
