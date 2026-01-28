@@ -29,6 +29,7 @@ const remoteList = {
 	Crx: "https://github.com/jesseice/vue3_vite5_chrome_plugin.git",
 	Crx_NoPackage: "git@github.com:jesseice/origin_crx.git",
 	Crx_NoPackage_Vue: "git@github.com:jesseice/origin_crx.git",
+	Nest_Ts: "git@github.com:jesseice/nest_cli.git",
 };
 let branch = "main";
 const promptsOptions = [
@@ -53,6 +54,7 @@ const promptsOptions = [
 			{ title: "chrome扩展(vue3+vite5)", value: "Crx" },
 			{ title: "chrome扩展(无封装 + vite + ts)", value: "Crx_NoPackage" },
 			{ title: "chrome扩展(无封装 + vite + ts + vue)", value: "Crx_NoPackage_Vue" },
+			{ title: "nest后台启动模板（ts）", value: "Nest_Ts" },
 		],
 	},
 ];
